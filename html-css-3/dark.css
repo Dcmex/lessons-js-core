@@ -16,6 +16,7 @@ html {
 	color: rgb(223, 255, 253);
     background: rgba(2,1,22,1);
 	border-radius: 16px;
+border: 1px solid White;
 	cursor: pointer;
 }
 .theme-button:hover {
@@ -34,18 +35,12 @@ html {
 	width: 60%;
 	/* задал размер 70% процентов и разместил в цент браузера  */
 }
-.person__info {
-	
-	/*задаю размеры для фото и отправляю текст на обтекание*/
-}
 .person__contacts {
 	display: flex;
 	flex-direction: column;
     justify-content: center;
 	width: 500px;
 	padding-left: 32px;
-	/* ну вот так фортануло. вроде по центру. пробовал разными командами, 
-	но получилось этой...да-да размеры не задал. а если задаю всё слетает. знаний не хватило сделать по-человечески*/
 }
 .avatar__picture {
 	width: 300px;
@@ -59,10 +54,6 @@ html {
 	transform: scale(2);
     transform: translateX(100%) rotate(360deg);
     transition: transform 2s ease;
-
-	
-	
-	/* задаём фото форму шара и создаём белую рамку  */
 }
 .contacts {
 	font-family: 'Arial black';
@@ -81,13 +72,11 @@ html {
 	color: rgb(204, 209, 224);
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	/*  по тех заданию голубого сделаи серым и попробовали положить болд */
 }
 .contacts__item {
 	font-family: helvetica ;
 	font-style: italic;
 	font-weight: bold;
-	/* тут мы хелветику и ариал нагнули и пожирнили немного. хелветика не жирниться сильно */
 }
 .paragraph {
 	margin-bottom: 1rem;
