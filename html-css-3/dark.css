@@ -1,0 +1,88 @@
+body,
+html {
+	width: 100%;
+	background: linear-gradient(63deg, rgba(0,0,0,1) 45%, rgba(2,1,22,1) 62%, rgba(56,169,20,1) 78%, rgba(255,252,0,1) 90%, rgba(0,212,255,1) 100%);
+	font-size: 16px;
+	font-family: arial;
+	color: rgb(223, 255, 253)
+}
+.theme-button {
+	font-size: 0.8rem;
+    position: absolute;
+	left: 1rem;
+	top: 1rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+	color: rgb(223, 255, 253);
+    background: rgba(2,1,22,1);
+	border-radius: 16px;
+border: 1px solid White;
+	cursor: pointer;
+}
+.theme-button:hover {
+	color: rgba(2,1,22,1);
+	background: rgba(56,169,20,1);
+}
+.blok {
+	width: 800px;
+	display:flex;
+	padding-top: 32px;
+	margin-bottom: 32px;
+	/*для удобства расположения фото и персональной информации объединил в общий класс и сдвинул вниз на 32пс*/
+}
+.person {
+	margin: auto;
+	width: 60%;
+	/* задал размер 70% процентов и разместил в цент браузера  */
+}
+.person__contacts {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	width: 500px;
+	padding-left: 32px;
+}
+.avatar__picture {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	border-radius: 300px;
+	border: 1rem solid white;
+	transition: transform 2s;
+}
+.avatar__picture:hover {
+	transform: scale(2);
+    transform: translateX(100%) rotate(360deg);
+    transition: transform 2s ease;
+}
+.contacts {
+	font-family: 'Arial black';
+	/* для точности соответствия макету выбрал только 1 шрифт...в умной книге читал, что так делать нельзя  */
+}
+.contacts__name {
+	font-size: 2rem;
+	/* задаю размер  */
+}
+.contacts__role {
+	font-size: 19.2px;
+	margin-bottom: 1rem;
+	/* размер и отступ...пинаем вниз контакты  */
+}
+.contacts__link {
+	color: rgb(204, 209, 224);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.contacts__item {
+	font-family: helvetica ;
+	font-style: italic;
+	font-weight: bold;
+}
+.paragraph {
+	margin-bottom: 1rem;
+	/* добавьте ваш код  */
+}
+.paragraph_last {
+	margin-bottom: 3rem;
+	/* добавьте ваш код  */
+}
